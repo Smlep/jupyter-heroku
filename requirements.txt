@@ -1,4 +1,4 @@
 jupyter
 # Fix version to prevent socket error
-notebook==5.6.0
+notebook
 tornado==5.1.1
