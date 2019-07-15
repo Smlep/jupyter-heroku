@@ -1,4 +1,5 @@
 #!/bin/sh
 
 echo "Port is $PORT"
-jupyter notebook --port $PORT --ip=0.0.0.0 src
+jupyter notebook --port $PORT --ip=0.0.0.0 \
+  --no-browser src
